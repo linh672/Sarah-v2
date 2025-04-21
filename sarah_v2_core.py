@@ -11,7 +11,7 @@ from sarah_module.basic_module import get_local_time ,get_weather
 
 
 # Load the trained pipeline (includes preprocessing and model)
-model_pipeline = joblib.load('house_price_predictor\house_price_pipeline_01.pkl')
+model_pipeline = joblib.load('house_price_predictor\house_price_model_xgbregressor.pkl')
 
 # Define the features dictionary
 user_inputs = {

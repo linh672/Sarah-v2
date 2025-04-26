@@ -12,7 +12,7 @@
 - ⛅ Get real-time weather updates for a city.
 - 😂 Tell random jokes.other features
 - 👋 Respond to greetings, thanks, and goodbyes.
--✈️ Predict flight delays based on factors like airline, scheduled departure time, and other features.
+- ✈️ Predict flight delays based on factors like airline, scheduled departure time, and other features.
 ---
 
 ## 🧠 Technologies Used

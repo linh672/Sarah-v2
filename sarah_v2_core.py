@@ -11,11 +11,11 @@ from sarah_module.basic_module import get_local_time ,get_weather
 
 #Load the trained pipeline (includes preprocessing and model)
 #house price prediction Model
-house_price_model = joblib.load('house_price_predictor\_house_price_model_xgbregressor.pkl')
+house_price_model = joblib.load('house_price_predictor\_house_price_model.pkl')
 
 #flight delay model and its label encoder
 flight_delay_model = joblib.load('flight_delay_predictor\_flight_delay_model.pkl')
-label_encoder = joblib.load('flight_delay_predictor\label_encoder.pkl')
+label_encoder = joblib.load('flight_delay_predictor\_label_encoder.pkl')
 
 # Define the features dictionary
 house_price_user_input = {

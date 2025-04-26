@@ -53,7 +53,7 @@
 
 5. **Run the chatbot:**
    ```bash
-   python house_price_predictor/main.py
+   python Sarah_v2_core.py
    ```
 
 ---
@@ -62,7 +62,7 @@
 
 - Wake Sarah by saying **"wake up Sarah"**.
 - Ask **"how to predict house price"** to get guidance.
-- Start prediction with **"predict house price"**.
+- Start prediction with **"predict house price"** or **"predict flight delay"**.
 - Sarah will ask for input feature-by-feature. You respond with values like:
 
   ```
@@ -84,15 +84,21 @@
 
 ```
 Sarah_v2/
-├── house_price_predictor/
-│   ├── house_price_pipeline_01.pkl   # Trained model (Git LFS)
-│   ├── main.py                       # Voice prediction logic
-│   └── ...
+├── Sarah_v2_core.py             # Voice prediction logic
 ├── sarah_module/
 │   ├── speech_to_text.py
 │   ├── text_to_speech.py
 │   ├── basic_module.py
 │   └── ...
-├── requirements.txt
+├── house_price_predictor/
+│   ├── _house_price_model.pkl   # Trained model (Git LFS)
+├── flight_delay_predictor                               
+│   ├── _flight_delay_model.pkl
+│   ├── _label_encoder.pkl
+├── sarah_module/
+│   ├── speech_to_text.py
+│   ├── text_to_speech.py
+│   ├── basic_module.py
+│   └── ...
 └── README.md
 ```

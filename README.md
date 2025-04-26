@@ -1,4 +1,4 @@
-# 🏠 Sarah - Voice-Controlled House Price Predictor
+# Sarah - Voice-Controlled AI Chatbot
 
 **Sarah** is a voice-controlled AI chatbot that can predict house prices based on user input, tell the time and date in a specific city, provide weather updates, tell jokes, and respond to greetings. It uses a trained machine learning pipeline to make real estate predictions, and responds to spoken inputs using speech recognition and text-to-speech.
 
@@ -10,9 +10,9 @@
 - 🏡 Predict house prices based on location, income, and other features.
 - 🌍 Tell local time and date for cities around the world.
 - ⛅ Get real-time weather updates for a city.
-- 😂 Tell random jokes.
+- 😂 Tell random jokes.other features
 - 👋 Respond to greetings, thanks, and goodbyes.
-
+- ✈️ Predict flight delays based on factors like airline, scheduled departure time, and other features.
 ---
 
 ## 🧠 Technologies Used

@@ -32,8 +32,8 @@
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/linh672/Sarah_v2.git
-   cd Sarah_v2
+   git clone https://github.com/linh672/Sarah-v2.git
+   cd Sarah-v2
    ```
 
 2. **Install dependencies:**

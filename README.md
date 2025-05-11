@@ -83,7 +83,7 @@
 ## 📁 Project Structure
 
 ```
-Sarah_v2/
+Sarah-v2/
 ├── Sarah_v2_core.py             # Voice prediction logic
 ├── sarah_module/
 │   ├── speech_to_text.py
